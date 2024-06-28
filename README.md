@@ -10,7 +10,7 @@ O banco de dados de exemplo **Sakila** é o resultado do apoio e feedback da com
 
 O diagrama a seguir fornece uma visão geral da estrutura do banco de dados de exemplo **Sakila**. O arquivo de origem do diagrama (para uso com o [MySQL Workbench](https://www.mysql.com/products/workbench/)) está incluído na distribuição do **Sakila** e é nomeado como **sakila.mwb**.
 
-[IMAGEM]
+<img src="imagens/sakila-schema.png">
 
 **Tabelas:** ```actor```, ```address```, ```category```, ```city```, ```country```, ```customer```, ```film```, ```film_actor```, ```film_category```, ```film_text```, ```inventory```, ```language```, ```payment```, ```rental```, ```staff``` e ```store```
 
