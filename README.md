@@ -1,4 +1,4 @@
-<a href="https://www.linkedin.com/in/enzodelcompare" target="_blank">
+<a href="https://www.linkedin.com/in/enzodelcompare">
   <img src="https://img.shields.io/badge/criador-enzodelcompare-blue">
 </a>
 
