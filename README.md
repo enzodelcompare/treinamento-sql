@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/criador-enzodelcompare-blue">
 </a>
 
-# Banco de Dados Sakila
+# <a href="https://dev.mysql.com/doc/sakila/en/">Banco de Dados Sakila</a>
 
 O banco de dados **Sakila** foi inicialmente desenvolvido por [Mike Hillyer](https://github.com/MHillyer), um ex-membro da equipe de documentação do **MySQL AB**. Ele foi criado com a intenção de fornecer um esquema padrão que possa ser usado como exemplo em livros, tutoriais, artigos, amostras e assim por diante. O banco de dados de exemplo **Sakila** também serve para destacar recursos do **MySQL**, como **Views**, **Stored Procedures** e **Triggers**.
 
