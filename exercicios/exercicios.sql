@@ -1,4 +1,36 @@
 -- ####################################################################################################
 -- ####################### LISTA DE EXERCÍCIOS - TREINAMENTO DE SQL [COM MYSQL] #######################
 -- ####################################################################################################
-
+--
+-- 001. Qual é a receita total gerada por cada filme na loja?
+-- 
+-- Objetivo: Determinar a contribuição financeira de cada filme para a receita total da loja, permitindo identificar quais filmes são mais lucrativos.
+-- Contexto: O público-alvo pode incluir gerentes de loja e analistas financeiros que buscam entender melhor quais filmes devem ser promovidos ou comprados em maior quantidade.
+-- 
+-- ----------
+-- 
+-- 002. Quais são os 10 filmes mais alugados e qual a sua receita total?
+-- 
+-- Objetivo: Identificar os filmes mais populares e sua rentabilidade, ajudando a direcionar estratégias de marketing e estoque.
+-- Contexto: Pode ser útil para a equipe de marketing e gerenciamento de estoque, que precisa planejar promoções e reabastecimento.
+-- 
+-- ----------
+-- 
+-- 003. Qual é o tempo médio de aluguel para os filmes?
+-- 
+-- Objetivo: Avaliar o tempo que os filmes ficam em posse dos clientes, o que pode impactar a disponibilidade de estoque.
+-- Contexto: Essa informação é valiosa para gerentes de operações que desejam otimizar a rotatividade de filmes e maximizar o número de aluguéis.
+-- 
+-- ----------
+-- 
+-- 004. Como o comportamento dos clientes varia entre diferentes categorias de filmes?
+-- 
+-- Objetivo: Entender as preferências dos clientes em relação às categorias de filmes, permitindo melhor direcionamento de marketing e estoque.
+-- Contexto: Informações relevantes para a equipe de marketing e planejamento de compras, que deve saber quais categorias são mais populares.
+-- 
+-- ----------
+-- 
+-- 005. Qual é a distribuição de idades dos clientes que alugam filmes?
+-- 
+-- Objetivo: Identificar a demografia dos clientes para entender melhor o público-alvo e ajustar estratégias de marketing.
+-- Contexto: Essa informação pode influenciar campanhas de marketing, dependendo das idades mais representativas entre os clientes.
