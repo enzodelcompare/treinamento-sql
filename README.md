@@ -44,7 +44,7 @@ A lista de exercícios foi projetada para cobrir os principais conceitos de SQL 
         WHERE category_id = 1;
    ```
 
- **Calcule o total de vendas por lojaÇ**
+ **Calcule o total de vendas por loja:**
 
    ```
      SELECT store_id,
