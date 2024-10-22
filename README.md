@@ -20,7 +20,7 @@ O diagrama a seguir fornece uma visão geral da estrutura do banco de dados de e
 
 <br>
 
-> NOTA: Para mais informacoes detalhadas sobre as tabelas, suas colunas e relacionamentos, acesse [+ Sakila](https://github.com/sakiladb/mysql)
+> NOTA: Para mais informacoes detalhadas sobre as tabelas, suas colunas e relacionamentos, acesse [+ Sakila](https://github.com/enzodelcompare/treinamento-sql/blob/main/sakila.md)
 
 <br>
 
