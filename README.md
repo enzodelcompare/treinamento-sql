@@ -37,17 +37,19 @@ A lista de exercícios foi projetada para cobrir os principais conceitos de SQL 
 **Selecione todos os filmes de uma categoria específica:**
 
    ```
-   SELECT title
-   FROM film
-   JOIN film_category ON film.film_id = film_category.film_id
-   WHERE category_id = 1;
+       SELECT title
+         FROM film
+   INNER JOIN film_category
+           ON film.film_id = film_category.film_id
+        WHERE category_id = 1;
    ```
 
  **Calcule o total de vendas por lojaÇ**
 
    ```
-   SELECT store_id, SUM(amount) AS total_sales
-   FROM payment
+     SELECT store_id,
+            SUM(amount) AS total_sales
+       FROM payment
    GROUP BY store_id;
    ```
 
