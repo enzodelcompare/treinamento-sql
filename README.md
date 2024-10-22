@@ -20,6 +20,10 @@ O diagrama a seguir fornece uma visão geral da estrutura do banco de dados de e
 
 <br>
 
+> NOTA: Para mais informacoes detalhadas sobre as tabelas, suas colunas e relacionamentos, acesse [+ Sakila](https://github.com/sakiladb/mysql)
+
+<br>
+
 ## Docker
 
 Para acessar via Docker o banco de dados [Sakila](https://github.com/sakiladb/mysql)
