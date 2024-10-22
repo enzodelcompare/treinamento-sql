@@ -271,3 +271,9 @@ O conteúdo da tabela film_text nunca deve ser modificado diretamente. Todas as 
 - **manager_staff_id:** Uma chave estrangeira identificando o gerente desta loja.
 - **address_id:** Uma chave estrangeira identificando o endereço desta loja.
 - **last_update:** Quando a linha foi criada ou atualizada pela última vez.
+
+<br>
+
+## Docker
+
+Para acessar via Docker o banco de dados [Sakila](https://github.com/sakiladb/mysql)
