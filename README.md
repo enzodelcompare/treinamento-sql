@@ -27,3 +27,9 @@ O diagrama a seguir fornece uma visão geral da estrutura do banco de dados de e
 ## Docker
 
 Para acessar via Docker o banco de dados [Sakila](https://github.com/sakiladb/mysql)
+
+<br>
+
+## Lista de Exercícios
+
+Para acessar os exercícios, clique [aqui!](https://github.com/enzodelcompare/treinamento-sql/blob/main/exercicios/exercicios.sql)
