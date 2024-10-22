@@ -24,12 +24,31 @@ O diagrama a seguir fornece uma visão geral da estrutura do banco de dados de e
 
 <br>
 
-## Docker
+## Acesso via Docker
 
-Para acessar via Docker o banco de dados [Sakila](https://github.com/sakiladb/mysql)
+Para configurar o banco de dados Sakila via Docker, você pode seguir os passos indicados neste repositório: [sakiladb/mysql](https://github.com/sakiladb/mysql). Esse processo garante que você tenha o ambiente Sakila configurado em poucos minutos, simplificando a prática de consultas SQL e testes.
 
 <br>
 
 ## Lista de Exercícios
 
-Para acessar os exercícios, clique [aqui!](https://github.com/enzodelcompare/treinamento-sql/blob/main/exercicios/exercicios.sql)
+A lista de exercícios foi projetada para cobrir os principais conceitos de SQL e análise de dados com o banco de dados Sakila. Alguns exemplos incluem:
+
+**Selecione todos os filmes de uma categoria específica:**
+
+   ```
+   SELECT title
+   FROM film
+   JOIN film_category ON film.film_id = film_category.film_id
+   WHERE category_id = 1;
+   ```
+
+ **Calcule o total de vendas por lojaÇ**
+
+   ```
+   SELECT store_id, SUM(amount) AS total_sales
+   FROM payment
+   GROUP BY store_id;
+   ```
+
+Para acessar a lista completa de exercícios, clique [aqui!](https://github.com/enzodelcompare/treinamento-sql/blob/main/exercicios/exercicios.sql)
