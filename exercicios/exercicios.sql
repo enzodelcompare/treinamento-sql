@@ -34,3 +34,123 @@
 -- 
 -- Objetivo: Identificar a demografia dos clientes para entender melhor o público-alvo e ajustar estratégias de marketing.
 -- Contexto: Essa informação pode influenciar campanhas de marketing, dependendo das idades mais representativas entre os clientes.
+-- 
+-- ----------
+-- 
+-- 6. Qual é a taxa de retorno de filmes em atraso?
+-- 
+-- Objetivo: Medir a eficiência na devolução de filmes e o impacto financeiro dos atrasos.
+-- Contexto: A gestão precisa entender as taxas de atraso para implementar políticas de cobrança e alertas de devolução.
+-- Soluções Possíveis: Filtrar aluguéis devolvidos após a data prevista usando DATEDIFF() e calcular a porcentagem em relação ao total de aluguéis.
+-- 
+-- ----------
+-- 
+-- 7. Quais são os funcionários com melhor desempenho em vendas?
+-- 
+-- Objetivo: Identificar os funcionários mais eficazes para reconhecer e recompensar seu desempenho.
+-- Contexto: Informações cruciais para gestão de equipe e desenvolvimento de incentivos para melhorar as vendas.
+-- Soluções Possíveis: Combinar SUM() de vendas por funcionário, usando JOINs entre staff, rental e payment, e ordenar os resultados por receita gerada.
+-- 
+-- ----------
+-- 
+-- 8. Qual é a categoria de filme com maior lucro?
+-- 
+-- Objetivo: Descobrir quais categorias são mais lucrativas para direcionar a aquisição de novos filmes.
+-- Contexto: Essa análise ajuda na tomada de decisões sobre estoque e marketing para maximizar lucros.
+-- Soluções Possíveis: Realizar JOINs entre as tabelas relevantes e utilizar SUM() e GROUP BY para calcular a receita por categoria, identificando a mais lucrativa.
+-- 
+-- ----------
+-- 
+-- 9. Quais filmes têm a maior duração e como isso afeta suas taxas de aluguel?
+-- 
+-- Objetivo: Avaliar se há uma correlação entre a duração dos filmes e a frequência de aluguéis.
+-- Contexto: Informações úteis para a equipe de compras que pode considerar a duração na seleção de novos filmes.
+-- Soluções Possíveis: Analisar a tabela film para a duração e correlacionar com aluguéis na tabela rental, utilizando AVG() para entender a média de aluguéis por duração.
+-- 
+-- ----------
+-- 
+-- 10. Como as promoções de produtos impactam as vendas?
+-- 
+-- Objetivo: Avaliar a eficácia das promoções em termos de aumento nas vendas.
+-- Contexto: Pode ser usado por gerentes de marketing para avaliar o retorno sobre investimento de campanhas promocionais.
+-- Soluções Possíveis: Comparar receitas antes e depois de promoções usando subconsultas e SUM() em períodos específicos.
+-- 
+-- ----------
+-- 
+-- 11. Qual é o padrão de aluguel de clientes em diferentes dias da semana?
+-- 
+-- Objetivo: Identificar os dias com maior atividade de aluguel para otimizar a equipe e as operações da loja.
+-- Contexto: Pode ajudar a planejar a logística de estoque e promoções específicas para dias de pico.
+-- Soluções Possíveis: Extrair o dia da semana da data de aluguel usando DAYOFWEEK() e analisar com COUNT() e GROUP BY.
+-- 
+-- ----------
+-- 
+-- 12. Qual é a taxa de retenção de clientes?
+-- 
+-- Objetivo: Medir a lealdade dos clientes e a eficácia das estratégias de marketing.
+-- Contexto: Informações úteis para desenvolvimento de programas de fidelidade e retenção de clientes.
+-- Soluções Possíveis: Identificar clientes que realizaram múltiplos aluguéis e calcular a porcentagem com COUNT() e DISTINCT.
+-- 
+-- ----------
+-- 
+-- 13. Como a localização dos clientes influencia seus hábitos de aluguel?
+-- 
+-- Objetivo: Analisar se a localização geográfica impacta nas preferências de aluguel dos clientes.
+-- Contexto: Informações valiosas para marketing geográfico e decisões de estoque.
+-- Soluções Possíveis: Usar JOINs entre customer e address, agrupando por localização e analisando receita e aluguéis.
+-- 
+-- ----------
+-- 
+-- 14. Quais filmes têm a maior proporção de aluguéis em relação ao estoque disponível?
+-- 
+-- Objetivo: Identificar quais filmes são mais populares em relação à sua disponibilidade.
+-- Contexto: Ajuda na gestão de estoque, indicando a necessidade de aquisição de mais cópias dos filmes populares.
+-- Soluções Possíveis: Calcular a razão entre o número de aluguéis e a quantidade de cópias usando JOINs e funções de agregação.
+-- 
+-- ----------
+-- 
+-- 15. Qual é o custo médio de aluguel por filme?
+-- 
+-- Objetivo: Avaliar a média dos custos de aluguel para entender a precificação em relação ao mercado.
+-- Contexto: Informações úteis para ajustes de preços e marketing.
+-- Soluções Possíveis: Somar os valores de aluguel por filme e usar AVG() para calcular o custo médio, agrupando por film_id.
+-- 
+-- ----------
+-- 
+-- 16. Quais clientes têm o maior valor de vida útil (CLV) para a loja?
+-- 
+-- Objetivo: Identificar os clientes mais valiosos para estratégias de retenção e marketing personalizado.
+-- Contexto: Essencial para a equipe de marketing e vendas que busca maximizar a rentabilidade por cliente.
+-- Soluções Possíveis: Somar todas as compras de cada cliente usando JOINs e SUM() para calcular o CLV, agrupando por customer_id.
+-- 
+-- ----------
+-- 
+-- 17. Como as mudanças na taxa de aluguel afetam a receita total da loja?
+-- 
+-- Objetivo: Analisar o impacto de alterações nos preços sobre as receitas.
+-- Contexto: Informações valiosas para planejamento financeiro e decisões de precificação.
+-- Soluções Possíveis: Comparar receitas antes e depois das mudanças de taxa usando GROUP BY e funções de agregação para visualizar tendências.
+-- 
+-- ----------
+-- 
+-- 18. Quais categorias de filme têm a maior rotatividade de estoque?
+-- 
+-- Objetivo: Avaliar a eficiência do estoque de diferentes categorias de filmes.
+-- Contexto: Importante para o gerenciamento de estoque e planejamento de compras.
+-- Soluções Possíveis: Calcular a taxa de aluguel por categoria, utilizando JOINs e COUNT(), e ordenando os resultados.
+-- 
+-- ----------
+-- 
+-- 19. Qual é o impacto das taxas de atraso na receita total da loja?
+-- 
+-- Objetivo: Avaliar a perda financeira causada por aluguéis em atraso.
+-- Contexto: Informações essenciais para definir políticas de cobrança e alertas de devolução.
+-- Soluções Possíveis: Identificar aluguéis atrasados com DATEDIFF() e calcular a receita perdida devido a atrasos.
+-- 
+-- ----------
+-- 
+-- 20. Quais são as tendências de aluguel ao longo do tempo?
+-- 
+-- Objetivo: Analisar as mudanças nos padrões de aluguel para adaptar estratégias de marketing e estoque.
+-- Contexto: Importante para o planejamento estratégico e avaliação de desempenho ao longo do tempo.
+-- Soluções Possíveis: Contar os aluguéis ao longo de períodos utilizando GROUP BY e DATE_FORMAT(), permitindo a visualização de tendências mensais ou anuais.
