@@ -37,7 +37,7 @@
 -- 
 -- ----------
 -- 
--- 6. Qual é a taxa de retorno de filmes em atraso?
+-- 006. Qual é a taxa de retorno de filmes em atraso?
 -- 
 -- Objetivo: Medir a eficiência na devolução de filmes e o impacto financeiro dos atrasos.
 -- Contexto: A gestão precisa entender as taxas de atraso para implementar políticas de cobrança e alertas de devolução.
@@ -45,7 +45,7 @@
 -- 
 -- ----------
 -- 
--- 7. Quais são os funcionários com melhor desempenho em vendas?
+-- 007. Quais são os funcionários com melhor desempenho em vendas?
 -- 
 -- Objetivo: Identificar os funcionários mais eficazes para reconhecer e recompensar seu desempenho.
 -- Contexto: Informações cruciais para gestão de equipe e desenvolvimento de incentivos para melhorar as vendas.
@@ -53,7 +53,7 @@
 -- 
 -- ----------
 -- 
--- 8. Qual é a categoria de filme com maior lucro?
+-- 008. Qual é a categoria de filme com maior lucro?
 -- 
 -- Objetivo: Descobrir quais categorias são mais lucrativas para direcionar a aquisição de novos filmes.
 -- Contexto: Essa análise ajuda na tomada de decisões sobre estoque e marketing para maximizar lucros.
@@ -61,7 +61,7 @@
 -- 
 -- ----------
 -- 
--- 9. Quais filmes têm a maior duração e como isso afeta suas taxas de aluguel?
+-- 009. Quais filmes têm a maior duração e como isso afeta suas taxas de aluguel?
 -- 
 -- Objetivo: Avaliar se há uma correlação entre a duração dos filmes e a frequência de aluguéis.
 -- Contexto: Informações úteis para a equipe de compras que pode considerar a duração na seleção de novos filmes.
@@ -69,7 +69,7 @@
 -- 
 -- ----------
 -- 
--- 10. Como as promoções de produtos impactam as vendas?
+-- 010. Como as promoções de produtos impactam as vendas?
 -- 
 -- Objetivo: Avaliar a eficácia das promoções em termos de aumento nas vendas.
 -- Contexto: Pode ser usado por gerentes de marketing para avaliar o retorno sobre investimento de campanhas promocionais.
@@ -77,7 +77,7 @@
 -- 
 -- ----------
 -- 
--- 11. Qual é o padrão de aluguel de clientes em diferentes dias da semana?
+-- 011. Qual é o padrão de aluguel de clientes em diferentes dias da semana?
 -- 
 -- Objetivo: Identificar os dias com maior atividade de aluguel para otimizar a equipe e as operações da loja.
 -- Contexto: Pode ajudar a planejar a logística de estoque e promoções específicas para dias de pico.
@@ -85,7 +85,7 @@
 -- 
 -- ----------
 -- 
--- 12. Qual é a taxa de retenção de clientes?
+-- 012. Qual é a taxa de retenção de clientes?
 -- 
 -- Objetivo: Medir a lealdade dos clientes e a eficácia das estratégias de marketing.
 -- Contexto: Informações úteis para desenvolvimento de programas de fidelidade e retenção de clientes.
@@ -93,7 +93,7 @@
 -- 
 -- ----------
 -- 
--- 13. Como a localização dos clientes influencia seus hábitos de aluguel?
+-- 013. Como a localização dos clientes influencia seus hábitos de aluguel?
 -- 
 -- Objetivo: Analisar se a localização geográfica impacta nas preferências de aluguel dos clientes.
 -- Contexto: Informações valiosas para marketing geográfico e decisões de estoque.
@@ -101,7 +101,7 @@
 -- 
 -- ----------
 -- 
--- 14. Quais filmes têm a maior proporção de aluguéis em relação ao estoque disponível?
+-- 014. Quais filmes têm a maior proporção de aluguéis em relação ao estoque disponível?
 -- 
 -- Objetivo: Identificar quais filmes são mais populares em relação à sua disponibilidade.
 -- Contexto: Ajuda na gestão de estoque, indicando a necessidade de aquisição de mais cópias dos filmes populares.
@@ -109,7 +109,7 @@
 -- 
 -- ----------
 -- 
--- 15. Qual é o custo médio de aluguel por filme?
+-- 015. Qual é o custo médio de aluguel por filme?
 -- 
 -- Objetivo: Avaliar a média dos custos de aluguel para entender a precificação em relação ao mercado.
 -- Contexto: Informações úteis para ajustes de preços e marketing.
@@ -117,7 +117,7 @@
 -- 
 -- ----------
 -- 
--- 16. Quais clientes têm o maior valor de vida útil (CLV) para a loja?
+-- 016. Quais clientes têm o maior valor de vida útil (CLV) para a loja?
 -- 
 -- Objetivo: Identificar os clientes mais valiosos para estratégias de retenção e marketing personalizado.
 -- Contexto: Essencial para a equipe de marketing e vendas que busca maximizar a rentabilidade por cliente.
@@ -125,7 +125,7 @@
 -- 
 -- ----------
 -- 
--- 17. Como as mudanças na taxa de aluguel afetam a receita total da loja?
+-- 017. Como as mudanças na taxa de aluguel afetam a receita total da loja?
 -- 
 -- Objetivo: Analisar o impacto de alterações nos preços sobre as receitas.
 -- Contexto: Informações valiosas para planejamento financeiro e decisões de precificação.
@@ -133,7 +133,7 @@
 -- 
 -- ----------
 -- 
--- 18. Quais categorias de filme têm a maior rotatividade de estoque?
+-- 018. Quais categorias de filme têm a maior rotatividade de estoque?
 -- 
 -- Objetivo: Avaliar a eficiência do estoque de diferentes categorias de filmes.
 -- Contexto: Importante para o gerenciamento de estoque e planejamento de compras.
@@ -141,7 +141,7 @@
 -- 
 -- ----------
 -- 
--- 19. Qual é o impacto das taxas de atraso na receita total da loja?
+-- 019. Qual é o impacto das taxas de atraso na receita total da loja?
 -- 
 -- Objetivo: Avaliar a perda financeira causada por aluguéis em atraso.
 -- Contexto: Informações essenciais para definir políticas de cobrança e alertas de devolução.
@@ -149,7 +149,7 @@
 -- 
 -- ----------
 -- 
--- 20. Quais são as tendências de aluguel ao longo do tempo?
+-- 020. Quais são as tendências de aluguel ao longo do tempo?
 -- 
 -- Objetivo: Analisar as mudanças nos padrões de aluguel para adaptar estratégias de marketing e estoque.
 -- Contexto: Importante para o planejamento estratégico e avaliação de desempenho ao longo do tempo.
